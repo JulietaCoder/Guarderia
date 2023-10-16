@@ -1,8 +1,51 @@
 body{
-    background-color: khaki;
+    background-color: rgb(188, 188, 183);
 }
 h1{
     text-align: center;
-    color: rgba(8, 8, 8, 0.932);
+    color: green;  
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    color: green;
+    text-decoration: underline;
+}
+h3{
+    text-align: center;
+    margin-top: 3rem;
+    color: rgb(86, 126, 86);  
     
+}
+
+h4{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h5{
+    font-size: 15px;
+    text-align: center;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+.gatos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    margin: auto;
+    margin-left: 3rem;
+}
+.cartas{
+    display: flex;
+    display: inline-block;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
