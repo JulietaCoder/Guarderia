@@ -27,10 +27,23 @@ if (respuesta >= 3){
 let edadGato = prompt("¿Que edad tiene el animal?");
 
     for(let edadGato=1; edadGato<=10; edad=edadGato+1){
-        console.log("Su animal puede gozar de la estadia");
-        
-    
+        console.log("Su animal puede gozar de la estadia");    
+        break
     }
+
+
+let metodoPago = prompt("Indique su metodo de pago")
+
+switch (metodoPago){
+    case "efectivo":
+        console.log("Usted paga en "+ metodoPago);
+        break
+    case "Tarjeta":
+        console.log("Usted paga en "+ metodoPago);
+        break
+    default:
+        console.log("No se acepta "+ metodoPago)
+}
 
 
 
