@@ -16,9 +16,10 @@ let edadGato = prompt("¿Que edad tiene el animal?");
     if(edadGato<1){
         console.log("Su animal no puede gozar de la estadia")
     }
-    for(let edadGato=1; edadGato<=15; edad=edadGato+1){
+
+    for(let edadGato=1; edadGato<=15; edadGato=edadGato+1){
         console.log("Su animal puede gozar de la estadia");    
-        break
+    break
     }
 
 

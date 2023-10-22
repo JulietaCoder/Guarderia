@@ -65,6 +65,7 @@ p{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr;
     grid-template-areas:
-    "carta1, carta2, carta3";
+    "carta1 carta2 carta3";
+    justify-items:center
     
 }
