@@ -46,6 +46,25 @@ p{
     display: flex;
     display: inline-block;
     margin-top: 3rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.carta1 {
+    grid-area: carta1;
+}
+.carta2 {
+    grid-area: carta2;
+}
+.carta3 {
+    grid-area: carta3;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    grid-template-areas:
+    "carta1, carta2, carta3";
+    
 }

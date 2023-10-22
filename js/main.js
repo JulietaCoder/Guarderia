@@ -2,12 +2,12 @@ alert("¡Bienvenidos a Guarderia Cuatro Patas!");
 
 console.log("Somos una guarderia felina ubicada en Nuñez");
 
-const animal = "gato";
+const animal = "gatos";
 let nombre = "Julieta";
 let edad = 30;
 let profesion = "Veterinaria";
 
-console.log("Soy" + " " + nombre + " " + "tengo" + " " + edad + " " + "años, soy" + " " + profesion + " " + "y cuento con una guarderia exclusiva para" + " " + animal );
+console.log("Bienvenidos soy" + " " + nombre + " " + "tengo" + " " + edad + " " + "años, soy" + " " + profesion + " " + "y cuento con una guarderia exclusiva para" + " " + animal );
 
 confirm("¿Estas buscando un hospedaje para tu gato?")
 
@@ -69,6 +69,5 @@ if (nochesEstadia>15 &&  nochesEstadia<=30){
     let costoTotal = multiplicar(precio2, nochesEstadia);
     console.log("El costo total de la estadía es de $" + costoTotal)
 }
-
 
 
