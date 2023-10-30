@@ -53,22 +53,14 @@ switch (metodoPago){
 }
 
 let nochesEstadia = prompt("¿Cuantos dias desea solicitar para la estadia de su gato?")
+let precioNoche = 1000;
 
-if (nochesEstadia>=1 &&  nochesEstadia<=15){
-    function multiplicar(precio, nochesEstadia){
-        return precio*nochesEstadia;
+function multiplicar (precioNoche , nochesEstadia){
+        return precioNoche * nochesEstadia;  
     }
-    let costoTotal = multiplicar(precio, nochesEstadia);
-    console.log("El costo total de la estadía es de $" + costoTotal)
-}
+    let resultado = multiplicar(precioNoche , nochesEstadia)
+    console.log("El costo total de la estadia es de " + resultado);
 
-let precio2 = 900
-if (nochesEstadia>15 &&  nochesEstadia<=30){
-    function multiplicar(precio2, nochesEstadia){
-        return precio2*nochesEstadia;
-    }
-    let costoTotal = multiplicar(precio2, nochesEstadia);
-    console.log("El costo total de la estadía es de $" + costoTotal)
-}
+
 
 
