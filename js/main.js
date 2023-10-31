@@ -11,17 +11,12 @@ console.log("Bienvenidos soy" + " " + nombre + " " + "tengo" + " " + edad + " " 
 
 confirm("¿Estas buscando un hospedaje para tu gato?")
 
-let edadGato = prompt("¿Que edad tiene el animal?");
+prompt("¿Que edad tiene el animal?");
 
-    if(edadGato<1){
-        console.log("Su animal no puede gozar de la estadia")
+    for(let edadGato=1; edadGato<=20; edadGato=edadGato+1){
+    console.log("Su animal puede gozar de la estadia");    
     }
-
-    for(let edadGato=1; edadGato<=15; edadGato=edadGato+1){
-        console.log("Su animal puede gozar de la estadia");    
-    break
-    }
-
+    
 
 let respuesta = prompt("¿Cuantos gatos tiene?");
 let precio = 1000;
