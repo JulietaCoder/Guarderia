@@ -11,27 +11,31 @@ console.log("Bienvenidos soy" + " " + nombre + " " + "tengo" + " " + edad + " " 
 
 confirm("¿Estas buscando un hospedaje para tu gato?")
 
-prompt("¿Que edad tiene el animal?");
-
-    for(let edadGato=1; edadGato<=20; edadGato=edadGato+1){
-    console.log("Su animal puede gozar de la estadia");    
-    }
-    
-
-let respuesta = prompt("¿Cuantos gatos tiene?");
-let precio = 1000;
-
-if (respuesta >= 3){
-    precio === 2400
-    console.log("Se aplica un 20% de descuento sobre la estadia")
-} else if (respuesta == 2){
-    precio == 1800
-    console.log("Se aplica un 10% de descuento sobre la estadia")
-} else{
-    precio === 1000
-    console.log("La estadia es de 1000 por noche")
+prompt("¿En que zona vive?")
+function ubicacion (lugar){
+    return lugar;
 }
 
+let res = prompt("¿Que edad tiene su gato?");
+
+    while(res <= 15){
+        console.log("Su animal puede gozar de la estadia")
+        break
+    }
+
+prompt("¿Cuantos gatos tiene?");
+
+function cantidad (numero){
+    if (numero >= 3){
+        console.log("Se aplica un 20% de descuento sobre la estadia")
+
+    } else if (numero === 2){
+        console.log("Se aplica un 10% de descuento sobre la estadia")
+
+    } else{
+        console.log("La estadia es de 1000 por noche")
+    }
+}
 
 
 let metodoPago = prompt("Indique su metodo de pago")
@@ -55,6 +59,7 @@ function multiplicar (precioNoche , nochesEstadia){
     }
     let resultado = multiplicar(precioNoche , nochesEstadia)
     console.log("El costo total de la estadia es de " + resultado);
+
 
 
 
