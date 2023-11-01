@@ -23,15 +23,18 @@ let res = prompt("¿Que edad tiene su gato?");
         break
     }
 
-prompt("¿Cuantos gatos tiene?");
+
+let numero = prompt("¿Cuantos gatos tiene?");
+cantidad(numero);
 
 function cantidad (numero){
+
     if (numero >= 3){
         console.log("Se aplica un 20% de descuento sobre la estadia")
-
+        
     } else if (numero === 2){
         console.log("Se aplica un 10% de descuento sobre la estadia")
-
+        
     } else{
         console.log("La estadia es de 1000 por noche")
     }
