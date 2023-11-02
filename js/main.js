@@ -25,7 +25,6 @@ let res = prompt("¿Que edad tiene su gato?");
 
 
 let numero = prompt("¿Cuantos gatos tiene?");
-cantidad(numero);
 
 function cantidad (numero){
 
@@ -39,6 +38,8 @@ function cantidad (numero){
         console.log("La estadia es de 1000 por noche")
     }
 }
+
+cantidad(numero);
 
 
 let metodoPago = prompt("Indique su metodo de pago")
