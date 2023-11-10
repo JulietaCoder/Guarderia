@@ -80,8 +80,29 @@ const detalleSucursales = [
     {sucu: "Caballito", direccion: "Av. Raúl Scalabrini Ortiz 1599", telefono: 57762451 },
 ]
 
-let rdo = detalleSucursales.find( (item)=> item.sucu === "Palermo")
+let rdo = detalleSucursales.find( (item)=> item.sucu === "Nuñez")
 console.log(rdo);
+
+
+
+
+function gato(nombre, raza, edad) {
+	This.nombre = nombre
+    This.raza = raza
+    This.edad = edad
+    This.describir = function(){
+        return this.nombre + "de raza" + this.raza + "tiene" + this.edad
+}
+}
+const gatoPequeno = new Gato("Cora", "Persa", 2);
+Console.log(gatoPequeno)
+const gatoMediano = new Gato("Sardina", "Siames", 10);
+Console.log(gatoMediano)
+const gatoGrande = new Gato("Simon", "Azul Ruso", 18);
+Console.log(gatoGrande)
+
+.gatoGrande.describir();
+
 
 
 
