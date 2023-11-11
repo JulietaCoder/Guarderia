@@ -82,26 +82,26 @@ const detalleSucursales = [
 
 let rdo = detalleSucursales.find( (item)=> item.sucu === "Nuñez")
 console.log(rdo);
+console.log("En Nuñez se encuentra nuestra sede central")
 
 
-
-
-function gato(nombre, raza, edad) {
-	This.nombre = nombre
-    This.raza = raza
-    This.edad = edad
-    This.describir = function(){
-        return this.nombre + "de raza" + this.raza + "tiene" + this.edad
+function Gato(nombre, raza, edad) {
+	this.nombre = nombre
+    this.raza = raza
+    this.edad = edad
+    this.describir = function(){
+        return console.log(nombre + " de raza" + raza + " tiene" + edad + " años");
 }
 }
-const gatoPequeno = new Gato("Cora", "Persa", 2);
+let gatoPequeno = new Gato("Cora", "Persa", 2);
 Console.log(gatoPequeno)
-const gatoMediano = new Gato("Sardina", "Siames", 10);
+let gatoMediano = new Gato("Sardina", "Siames", 10);
 Console.log(gatoMediano)
-const gatoGrande = new Gato("Simon", "Azul Ruso", 18);
+let gatoGrande = new Gato("Simon", "Azul Ruso", 18);
 Console.log(gatoGrande)
 
 .gatoGrande.describir();
+
 
 
 
