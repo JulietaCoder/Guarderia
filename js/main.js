@@ -84,23 +84,22 @@ let rdo = detalleSucursales.find( (item)=> item.sucu === "Nuñez")
 console.log(rdo);
 console.log("En Nuñez se encuentra nuestra sede central")
 
-
-function Gato(nombre, raza, edad) {
-	this.nombre = nombre
-    this.raza = raza
-    this.edad = edad
-    this.describir = function(){
-        return console.log(nombre + " de raza" + raza + " tiene" + edad + " años");
+class Gato {
+    constructor(nombre, raza, edad) {
+    this.nombre = nombre;
+    this.raza = raza;
+    this.edad = edad;
+    }
 }
-}
-let gatoPequeno = new Gato("Cora", "Persa", 2);
-Console.log(gatoPequeno)
-let gatoMediano = new Gato("Sardina", "Siames", 10);
-Console.log(gatoMediano)
-let gatoGrande = new Gato("Simon", "Azul Ruso", 18);
-Console.log(gatoGrande)
 
-.gatoGrande.describir();
+let gatoPequeno = new Gato("Cora", "Persa", "2");
+console.log(gatoPequeno)
+let gatoMediano = new Gato("Sardina", "Siames", "10");
+console.log(gatoMediano)
+let gatoGrande = new Gato("Simon", "Azul Ruso", "18");
+console.log(gatoGrande)
+
+
 
 
 
